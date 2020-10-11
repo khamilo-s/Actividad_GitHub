@@ -73,9 +73,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void Github(View v){
         ArrayList<String> juegos = new ArrayList<String>();
+
         juegos.add("Overwatch");
         juegos.add("Call of Duty 3");
         juegos.add("League of Legends");
+        juegos.add("Total War Rome 2");
+        juegos.add("Rocket League");
 
         Intent i = new Intent(this, Github_act.class);
         i.putExtra("listajuegos", juegos);
